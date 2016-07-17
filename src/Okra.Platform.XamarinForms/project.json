@@ -1,0 +1,26 @@
+﻿{
+  "version": "2.0.0-*",
+  "description": "Okra App Framework - The Okra.Platform.XamarinForms package enables the creation of Okra Framework applications using Xamarin Forms.",
+  "packOptions": { 
+    "repository": { 
+      "type": "git", 
+      "url": "git://github.com/OkraFramework/Okra.Platform.XamarinForms" 
+    }, 
+    "tags": [ "Okra", "MVVM", "Windows10", "Win10", "XamarinForms", "iOS", "Android" ] 
+   },
+   
+   "buildOptions": {
+    "warningsAsErrors": true
+  },
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Xamarin.Forms": "2.3.0.107"
+  },
+
+  "frameworks": {
+    "netstandard1.4": {
+      "imports": [ "dnxcore50", "portable-net45+wpa81+wp8+win8" ]
+    }
+  }
+}
